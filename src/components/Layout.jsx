@@ -6,9 +6,11 @@ import './layout.css';
 export default ({ children }) => {
   return (
     <>
+      <main>
       <Navbar />
-      {children}
+        {children}
       <Footer />
+      </main>
     </>
   )
 }
